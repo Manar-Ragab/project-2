@@ -502,6 +502,7 @@ hr{
     transition: 1s;
     opacity: 0;
     border-radius: 10px;
+    transform: rotateY(180deg);
 }
 .first:hover  .overlay,.second:hover  .overlay,.third:hover  .overlay,.fourth:hover .overlay{
     opacity: 1;
@@ -660,6 +661,9 @@ del{
     transition: 1s;
     opacity: 0;
     z-index: 10;
+}
+.like i{
+    transform: rotateY(180deg);
 }
 .one:hover .overlay, .two:hover .overlay, .three:hover .overlay, .four:hover .overlay {
     opacity: 1;
