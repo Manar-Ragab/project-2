@@ -400,6 +400,16 @@ hr{
     justify-content: space-between;
     align-items: center;
 }
+.chev,.chevl{
+    font-size: 35px;
+    position: absolute;
+    top:35%;
+    left:101%;
+    color: rgb(104, 147, 167);
+}
+.chevl{
+    left:-3%;
+}
 .head-sec3{
     width: 80%;
     height: 20%;
@@ -545,6 +555,14 @@ del{
     background: -webkit-radial-gradient(rgba(208, 227, 233, 0.651),rgba(136, 198, 236, 0.589));
     box-shadow: 1px 5px 20px 5px rgb(68, 116, 172);
 }
+.custmor .chev,.custmor .chevl{
+    position: absolute;
+    top: 45%;
+    left:90%;
+}
+.custmor .chevl{
+    left:10%;
+}
 .custmor h1{
     color: rgb(0, 91, 128);
     font-family: "Merienda", serif;
@@ -620,6 +638,12 @@ del{
 .like h1 {
     width: 80%;
     top: 40px;
+}
+.like .chev{
+    left:-5%;
+}
+.like .chevl{
+    left:103%;
 }
 .image5 {
     position: relative;
@@ -901,8 +925,20 @@ footer{
 .f-footer .heart,span{
     color: rgb(181, 228, 255);
 }
-
-
 h1{
     text-shadow: 2px 3px 3px rgb(43, 112, 175);
+}
+.heart{
+    animation-name: change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes change{
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 1.08;
+        color: rgba(113, 172, 206, 0.856);
+    }
 }
